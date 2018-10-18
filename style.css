@@ -54,18 +54,23 @@ main {
 
 .clum {
   float:left;
-  margin: 20px 0;
   height: 1000px;
 }
 
 .left {
   width: 80%;
+    margin: 20px 0;
   border-right: 2px dashed #994641;
   padding-right: 20px;
 }
 
+.book-title {
+  border-left: 5px solid #994641;
+}
+
 .book-image {
   display: inline-block;
+  width:40%;
 }
 
 .book-info {
@@ -76,7 +81,7 @@ main {
   width: 90%;
   margin: 0 auto;
   padding: 10px 20px;
-
+  margin-top: 20px;
 }
 
 .form {
@@ -88,12 +93,14 @@ main {
 
 input, textarea {
   color: gray;
+  margin-bottom: 15px;
 }
 
 .form p {
   border-bottom: 1px solid #333;
   padding-left: 5px;
-  margin-bottom: 10px;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
 }
 
 label {
@@ -130,19 +137,26 @@ textarea {
 
 
 .review {
+  width: 100%;
   margin-bottom:10px;
   background-color: #acdfa9;
   border-radius: 5px;
+  padding: 20px;
 }
 
 .title {
   border-left: 5px solid;
-  vertical-align: bottom;
-  
+  vertical-align: text-bottom; /*効かない*/
+}
+
+.name {
+  width: 100%;
+  text-align: right
 }
 
 
 .right {
+  padding-top: 10px;
   padding-left: 20px;
 }
 
