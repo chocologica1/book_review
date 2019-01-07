@@ -14,6 +14,6 @@ PHPのDB接続(MySQL)練習用サンプルサイト
   <li>格納したデータを表示</li>
   <li>2カラムレイアウト</li>
 </ul>
-<br>
+
 ## プレビュー
 <img src="https://user-images.githubusercontent.com/43476091/48669202-a0074500-eb42-11e8-96d3-dd40733d3092.png" alt="book_review">
